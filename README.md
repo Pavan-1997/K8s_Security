@@ -13,15 +13,15 @@ Here are some of the mandatory things to consider.
 
 ---
 
-## Secure your API server
+## 1. Secure your API server
 The Kubernetes API server is a critical component of the cluster and should be secured with strong authentication and authorization mechanisms. 
 Use TLS certificates for all communications with the API server.
 
-1. Enable TLS encryption
-2. Use strong authentication
-3. Restrict access
-4. Monitor and audit
-5. Keep the API server up to date
+- Enable TLS encryption
+- Use strong authentication
+- Restrict access
+- Monitor and audit
+- Keep the API server up to date
 
 #### Enable TLS encryption
 
@@ -121,13 +121,13 @@ By following these steps, you can enhance the security of the Kubernetes API.
 ---
 
 
-## RBAC
+## 2. RBAC
 Use Role-Based Access Control to define who can access which resource in kubernetes. For example, not everyone should have access to kubernetes secrets.
 
 
 ---
 
-## Network Policies
+## 3. Network Policies
 Use network policies to restrict traffic within the cluster and to/from external sources. 
 Use firewalls and security groups to control traffic to and from the cluster.
 
@@ -135,7 +135,7 @@ Use firewalls and security groups to control traffic to and from the cluster.
 ---
 
 
-## Encrypt data at rest
+## 4. Encrypt data at rest
 Use encryption to protect sensitive data stored in etcd and other components of the cluster.
 
 To encrypt data at rest in Kubernetes, you can use the Kubernetes Encryption Provider feature, which encrypts sensitive data stored in etcd, the Kubernetes cluster's key-value store. The Encryption Provider uses a key management system to manage and store encryption keys.
@@ -205,7 +205,7 @@ By following these steps, you can enable and configure the Kubernetes Encryption
 
 ---
 
-## Secure Container Images
+## 5. Secure Container Images
 Use container images from trusted sources and scan them for vulnerabilities before deployment.
 
 To scan images for vulnerabilities you can use simple commands like
@@ -215,7 +215,7 @@ To scan images for vulnerabilities you can use simple commands like
 ---
 
 
-## Cluster Monitoring
+## 6. Cluster Monitoring
 Use tools like Kubernetes Audit Logs and security monitoring solutions to detect and respond to security threats in real-time.
 
 ![Screenshot 2023-03-05 at 8 16 52 PM](https://user-images.githubusercontent.com/43399466/222967569-8b05f3e3-ead6-4943-b6ce-3db3af242a5a.png)
@@ -223,5 +223,5 @@ Use tools like Kubernetes Audit Logs and security monitoring solutions to detect
 
 ---
 
-## Upgrades
+## 7. Upgrades
 Keep the Kubernetes cluster and its components up to date with the latest security patches and updates.
