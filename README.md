@@ -211,6 +211,13 @@ Use container images from trusted sources and scan them for vulnerabilities befo
 To scan images for vulnerabilities you can use simple commands like
 `docker scan --severity high <docker-image-location>`
 
+Other container security tools are:
+
+- Synk
+- Clair
+- Quay.io
+- Trivy
+- OWASP
 
 ---
 
