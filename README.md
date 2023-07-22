@@ -11,6 +11,8 @@ Here are some of the mandatory things to consider.
 6. Cluster Monitoring
 7. Upgrades
 
+---
+
 ## Secure your API server
 The Kubernetes API server is a critical component of the cluster and should be secured with strong authentication and authorization mechanisms. 
 Use TLS certificates for all communications with the API server.
@@ -131,10 +133,10 @@ To encrypt data at rest in Kubernetes, you can use the Kubernetes Encryption Pro
 
 Here are the general steps to enable Encryption Provider and encrypt data at rest in Kubernetes:
 
-- [Enable the Encryption Provider feature by configuring the Kubernetes API server](https://github.com/iam-veeramalla/Kubernetes-Zero-to-Hero/blob/main/Security/Manage_Security_Like_Pro.md#enable-the-encryption-provider-feature-by-configuring-the-kubernetes-api-server)
-- [Configure the key management system to store and manage encryption keys](https://github.com/iam-veeramalla/Kubernetes-Zero-to-Hero/blob/main/Security/Manage_Security_Like_Pro.md#configure-the-key-management-system-to-store-and-manage-encryption-keys)
-- [Create a Kubernetes Secret object with the encryption key](https://github.com/iam-veeramalla/Kubernetes-Zero-to-Hero/blob/main/Security/Manage_Security_Like_Pro.md#create-a-kubernetes-secret-object-with-the-encryption-key)
-- [Configure Kubernetes resources to use the Encryption Provider](https://github.com/iam-veeramalla/Kubernetes-Zero-to-Hero/blob/main/Security/Manage_Security_Like_Pro.md#configure-kubernetes-resources-to-use-the-encryption-provider)
+- Enable the Encryption Provider feature by configuring the Kubernetes API server
+- Configure the key management system to store and manage encryption keys
+- Create a Kubernetes Secret object with the encryption key
+- Configure Kubernetes resources to use the Encryption Provider
 
 Let's dive into these steps in more detail:
 
