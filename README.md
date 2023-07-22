@@ -118,14 +118,15 @@ Make sure to keep the Kubernetes API server up to date with the latest security 
 
 By following these steps, you can enhance the security of the Kubernetes API.
 
+---
 ## RBAC
 Use Role-Based Access Control to define who can access which resource in kubernetes. For example, not everyone should have access to kubernetes secrets.
-
+---
 
 ## Network Policies
 Use network policies to restrict traffic within the cluster and to/from external sources. 
 Use firewalls and security groups to control traffic to and from the cluster.
-
+---
 ## Encrypt data at rest
 Use encryption to protect sensitive data stored in etcd and other components of the cluster.
 
@@ -194,17 +195,18 @@ In this example, we are defining a Secret object called "my-secret" that contain
 
 By following these steps, you can enable and configure the Kubernetes Encryption Provider feature to encrypt data at rest in your Kubernetes cluster.
 
+---
 ## Secure Container Images
 Use container images from trusted sources and scan them for vulnerabilities before deployment.
 
 To scan images for vulnerabilities you can use simple commands like
 `docker scan --severity high <docker-image-location>`
-
+---
 ## Cluster Monitoring
 Use tools like Kubernetes Audit Logs and security monitoring solutions to detect and respond to security threats in real-time.
 
 ![Screenshot 2023-03-05 at 8 16 52 PM](https://user-images.githubusercontent.com/43399466/222967569-8b05f3e3-ead6-4943-b6ce-3db3af242a5a.png)
-
+---
 
 ## Upgrades
 Keep the Kubernetes cluster and its components up to date with the latest security patches and updates.
