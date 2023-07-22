@@ -227,6 +227,7 @@ Use tools like Kubernetes Audit Logs and security monitoring solutions to detect
 
 ![Screenshot 2023-03-05 at 8 16 52 PM](https://user-images.githubusercontent.com/43399466/222967569-8b05f3e3-ead6-4943-b6ce-3db3af242a5a.png)
 
+- Sysdig is a popular cluster monitoring tool
 
 ---
 
